@@ -19,6 +19,17 @@ To deactivate an active environment, use
 #
 #     $ conda deactivate
 
-to active use -- conda activate cicd
+to active use -- conda activate cicd/
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Sanketnjaisingpure/CI-CD.git
+git push -u origin main
 
-https://github.com/Sanketnjaisingpure/CI-CD.git
+Then I Created the .gitignore file in the github and pull it using
+git pull command
+
+Then I have Created setup.py file 
+ -- The Setup Script is the centre of all activity in building , distributing and installing modules using Distutils
+ -- The main purpose of the setup is to describe your modules distribution to the Distutils
