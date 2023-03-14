@@ -1,0 +1,24 @@
+Agenda --
+
+STAGES OF GIT TO PULL FILES 
+1.ADD
+2.COMMIT
+3.PUSH
+
+
+1) - Set up the Github  { It is a repo for commiting our code}
+	a) set up the new enviroment
+	b) setup.py
+	c) requirement.txt
+
+1) - go to anaconda prompt  and paste the path 
+2) - type code. :-  it will open the vs code
+3) - from that open terminal
+4) - type to create enviroment conda create -p cicd python==3.10 -y
+To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+to active use -- conda activate cicd
+
+https://github.com/Sanketnjaisingpure/CI-CD.git
