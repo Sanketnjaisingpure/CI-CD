@@ -33,3 +33,31 @@ git pull command
 Then I have Created setup.py file 
  -- The Setup Script is the centre of all activity in building , distributing and installing modules using Distutils
  -- The main purpose of the setup is to describe your modules distribution to the Distutils
+
+OUR ENTIRE PROJECT IN HAPPENING IN THE src file
+ then i Created src (source folder) in that i Created another folder called components in that i have Created 
+ __init__.py file
+
+ and in src also i have created __init__.py file
+
+ Here What is the need of components folder
+Cause components will be created as packages and will be imported to some other file locations
+
+then i have Created a python file data_ingestion 
+data_ingestion means reading a data from a specific  database that can be our component
+# this file have all the code used to read the data
+
+Then my next step will be data Transformation any code related with the Transformation we have to write in the
+data_transformation python file
+
+After doing the data Transformation
+then we are going to train the model in the model_training.py python file
+
+then i have created a folder pipelines
+in that i have created a train_pipeline.py python file for training 
+and for testing i have created predict_pipeline.py python file 
+
+Then i have created three important file called
+logger.py for logging 
+exceptions.py for all the exceptions handling
+utils.py for any functionality that used in the common way 
