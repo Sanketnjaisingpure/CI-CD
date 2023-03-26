@@ -4,6 +4,13 @@ STAGES OF GIT TO PULL FILES
 1.ADD
 2.COMMIT
 3.PUSH
+(OR WHEN EVER IF WE MADE SOME CHANGES DO THIS)
+git init
+git status
+git add .
+git commit -m "commit name"
+git 
+
 
 
 1) - Set up the Github  { It is a repo for commiting our code}
@@ -61,3 +68,6 @@ Then i have created three important file called
 logger.py for logging 
 exceptions.py for all the exceptions handling
 utils.py for any functionality that used in the common way 
+
+--
+Why need to convert image into gray scale
